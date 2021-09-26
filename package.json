@@ -8,7 +8,8 @@
   "private": true,
   "scripts": {
     "start": "node build/app.js",
-    "dev": "nodemon -r dotenv/config src/app.ts"
+    "dev": "nodemon -r dotenv/config src/app.ts",
+    "build": "tsc -p ."
   },
   "dependencies": {
     "axios": "^0.21.4",
