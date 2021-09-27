@@ -8,22 +8,10 @@ const PlanSchema = new mongoose_1.Schema({
     status: {
         type: String
     },
-    stripeId: {
-        type: String
-    },
     subscriptionId: {
         type: String
     },
     priceId: {
-        type: String
-    },
-    invoiceId: {
-        type: String
-    },
-    product: {
-        type: String
-    },
-    url: {
         type: String
     },
     user: {
